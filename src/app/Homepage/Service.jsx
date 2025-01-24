@@ -30,8 +30,8 @@ const Service = () => {
         }
         </div>
         <div className='flex flex-col md:flex-row items-center md:gap-[100px] gap-[20px] mt-[20px]'>
-            <Image className='h-[35vh]' src="/rectangle4.png" alt="" width={530} height={100} />
-            <Image className='h-[35vh]' src="/rectangle2.png" alt="" width={530} height={150} />
+            <Image className='h-[35vh]' src="/Rectangle4.png" alt="" width={530} height={100} />
+            <Image className='h-[35vh]' src="/Rectangle2.png" alt="" width={530} height={150} />
         </div>
       
     </div>

@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='md:w-[50%]'>
-                <Image className='w-[100%] h-[70vh]' src="/rectangle1.png" alt="" width={200} height={200} />
+                <Image className='w-[100%] h-[70vh]' src="/Rectangle1.png" alt="" width={200} height={200} />
             </div>
         </div>
         <div className='w-[100%] h-[130px] bg-black flex items-center justify-center'>
