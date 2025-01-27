@@ -75,7 +75,7 @@ const page = () => {
             <div className='flex flex-col md:flex-row md:gap-[50px] gap-[15px] items-center'>
                 <div className='flex flex-col gap-[5px]'>
                     <h2 className='font-bold'>Location</h2>
-                    <input onChange={(e)=>setLocation(e.target.value)} className='border-2 border-black md:w-[40vw] w-[95vw] py-[7px] rounded-md px-[10px]' value={location} required type="text" name='location' placeholder='Your Location' />
+                    <input onChange={(e)=>setLocation(e.target.value)} className='border-2 border-black md:w-[40vw] w-[95vw] py-[7px] rounded-md px-[10px]' value={Location} required type="text" name='location' placeholder='Your Location' />
                 </div>
                 <div className='flex flex-col md:flex-row md:gap-[50px] items-center'>
                     <div className='flex flex-col gap-[5px]'>

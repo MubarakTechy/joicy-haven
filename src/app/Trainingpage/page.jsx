@@ -7,8 +7,9 @@ const page = () => {
         const [fullName, setFullName] = useState()
         const [email, setEmail] = useState()
         const [WhatsApp, setWhatsApp] = useState()
-        const [Location, setLocation] = useState()
-        const [training, setTrai] = useState()
+        const [state, setState] = useState()
+        const [city, setCity] = useState()
+        const [training, setTraining] = useState()
         const [message, setMessage] = useState()
         const [sending, setSending] = useState()
 
@@ -26,11 +27,10 @@ const page = () => {
                             name: fullName,
                             email: email,
                             whatsapp: WhatsApp,
-                            location: Location,
-                            services_type: serviceType,
-                            date: date,
-                            time: time,
-                            message: message
+                            state: state,
+                            training: training,
+                            city: city,
+                            message: message,
                     })
                     .then((res)=>(res.json)),
                        if (response) {
@@ -54,40 +54,40 @@ const page = () => {
             <div className='flex flex-col md:flex-row md:gap-[50px] gap-[15px] items-center'>
                 <div className='flex flex-col gap-[5px]'>
                     <h2 className='font-bold'>FULL NAME</h2>
-                    <input onChange={(e)=>setFullName(e.target.value)} className='border-2 border-black md:w-[40vw] w-[95vw] py-[7px] rounded-md px-[10px]' type="text" name='' placeholder='Your Name' />
+                    <input onChange={(e)=>setFullName(e.target.value)} className='border-2 border-black md:w-[40vw] w-[95vw] py-[7px] rounded-md px-[10px]' value={fullName} type="text" name='' placeholder='Your Name' />
                 </div>
                 <div className='flex flex-col gap-[5px]'>
                     <h2 className='font-bold'>EMAIL</h2>
-                    <input onChange={(e)=>setEmail(e.target.value)} className='border-2 border-black md:w-[40vw] w-[95vw] py-[7px] rounded-md px-[10px]' type="text" name='' placeholder='Your Email' />
+                    <input onChange={(e)=>setEmail(e.target.value)} className='border-2 border-black md:w-[40vw] w-[95vw] py-[7px] rounded-md px-[10px]' value={email} type="text" name='email' placeholder='Your Email' />
                 </div>
             </div>
             <div className='flex flex-col md:flex-row md:gap-[50px] gap-[15px] items-center'>
                 <div className='flex flex-col gap-[5px]'>
                     <h2 className='font-bold'>WhatsApp Number</h2>
-                    <input onChange={(e)=>setWhatsApp(e.target.value)} className='border-2 border-black md:w-[40vw] w-[95vw] py-[7px] rounded-md px-[10px]' type="text" name='' placeholder='Your WhatsApp No' />
+                    <input onChange={(e)=>setWhatsApp(e.target.value)} className='border-2 border-black md:w-[40vw] w-[95vw] py-[7px] rounded-md px-[10px]' value={WhatsApp} type="text" name='whatsapp no' placeholder='Your WhatsApp No' />
                 </div>
                 <div className='flex flex-col gap-[5px]'>
                     <h2 className='font-bold'>Training Type</h2>
-                    <input onChange={(e)=>sett(e.target.value)} className='border-2 border-black md:w-[40vw] w-[95vw] py-[7px] rounded-md px-[10px]' type="text" name='' placeholder='Select Trainig Type' />
+                    <input onChange={(e)=>setTraining(e.target.value)} className='border-2 border-black md:w-[40vw] w-[95vw] py-[7px] rounded-md px-[10px]' value={training} type="text" name='training type' placeholder='Select Trainig Type' />
                 </div>
             </div>
             <div className='flex flex-col md:flex-row md:gap-[50px] gap-[15px] items-center'>
                 <div className='flex flex-col gap-[5px]'>
                     <h2 className='font-bold'>State</h2>
-                    <input className='border-2 border-black md:w-[40vw] w-[95vw] py-[7px] rounded-md px-[10px]'type="text" name='' placeholder='Your State' />
+                    <input onChange={(e)=>setState(e.target.value)} className='border-2 border-black md:w-[40vw] w-[95vw] py-[7px] rounded-md px-[10px]' value={state} type="text" name='state' placeholder='Your State' />
                 </div>
                 <div className='flex flex-col gap-[5px]'>
                     <h2 className='font-bold'>Your City</h2>
-                    <input className='border-2 border-black md:w-[40vw] w-[95vw] py-[7px] rounded-md px-[10px]' type="text" name='' placeholder='Your City' />
+                    <input onChange={(e)=>setCity(e.target.value)} className='border-2 border-black md:w-[40vw] w-[95vw] py-[7px] rounded-md px-[10px]' value={city} type="text" name='city' placeholder='Your City' />
                 </div>
             </div>
             <div className='flex flex-col gap-[5px]'>
                 <h2 className='font-bold'>Message</h2>
-                <textarea className='md:w-[84vw] w-[95vw] h-[20vh] rounded-lg border-2 border-black ' name="" id="" placeholder='Message'></textarea>
+                <textarea onChange={(e)=>setMessage(e.target.value)} className='md:w-[84vw] w-[95vw] h-[20vh] rounded-lg border-2 border-black px-[10px] ' value={message} name="message" placeholder='Message'></textarea>
             </div>
         </div>
         <div className='m-[30px]'>
-            <button className='md:w-[15vw] w-[80vw] py-[10px] bg-black text-white rounded-md'>Enrol Now</button>
+            <button className='md:w-[15vw] w-[80vw] py-[10px] bg-black text-white rounded-md'>{sending ? "Sending" : "Send"}</button>
         </div>
       <Footer/>
     </form>
