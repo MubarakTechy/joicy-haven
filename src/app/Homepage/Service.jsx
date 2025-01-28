@@ -24,7 +24,7 @@ const Service = () => {
         {items.map(item => (
                 <div key={item.id} className='flex flex-col  items-center md:gap-[10px] gap-[5px]'>
                     <Image className='h-[30vh]' src={item.Image} alt={item.description} width={350} height={300} />
-                    <p className='md:w-[26vw] border-[1px] border-black rounded-md text-lg p-[5px] text-white text-start'>{item.description}</p>
+                    <p className='md:w-[26vw] border-[1px] border-black rounded-md text-lg p-[15px] min-h-0 text-center text-white m-[10px]'>{item.description}</p>
                 </div>
             ))
         }
