@@ -8,12 +8,12 @@ import Link from 'next/link';
 
 const training = [
     {title: 'Nails Training',
-         list: ['*Get a full combo price for nail studio','*Manicure','*Pedicure'],
+         list: ['*Acrylic Nails','*Nail Preparation','*Tip Application','*Gel Polish', '*Products, etc'],
           price: '150k'},
 
-    {title: 'Spa Guru',
+    {title: 'Cosmetic Treatment',
          list: ['*Manicure','*Pedicure'],
-          price: '50k'},
+          price: '80k'},
 
     {title: 'Semi Permanent Brows',
          list: ['*Product intro, Prep 101','*Ombre','*Practical','*Mapping e.t.c,'],
@@ -21,15 +21,15 @@ const training = [
 
     {title: 'Facials Training',
          list: ['*Introduction, Types of facial, Types of skin,','*Products, equipment,','*Extraction, e.t.c'],
-          price: '150k'},
+          price: '200k'},
 
     {title: 'Lash Extension',
-         list: ['*Introduction, Types of lash, Lash mapping,','*After care technicians','*Lash removal and refill e.t.c'],
+         list: ['*Introduction, Types of lash, Lash mapping,','*After care technicians','*Lash removal', 'Refill e.t.c'],
           price: '150k'},
 
-    {title: 'Facials Training',
-        list: ['*Introduction, Types of facial, Types of skin,','*Products, equipment,','*Extraction, e.t.c'],
-          price: '150k'},
+    // {title: 'Facials Training',
+    //     list: ['*Introduction, Types of facial, Types of skin,','*Products, equipment,','*Extraction, e.t.c'],
+    //       price: '150k'},
     
 
     
@@ -41,7 +41,7 @@ const Training = () => {
         <h1 className='text-[30px] font-bold mt-[20px]'>Training Packages</h1>
         <div className='grid md:grid-cols-3 md:gap-[40px] gap-[15px]'>
             {training.map((item, index) => (
-                <div key={index} className=' flex items-center  border-[1px] border-[#d0aa67] md:w-[25vw] w-[90vw] h-[30vh] rounded-xl px-[20px] gap-[10px]'>
+                <div key={index} className=' flex items-center  border-[1px] border-[#d0aa67] md:w-[25vw] w-[90vw] min-h-[30vh] rounded-xl px-[20px] gap-[10px]'>
                     <div>
                         <h3 className='md:text-xl text-[30px] md:font-semibold font-bold'>{item.title}</h3>
                         <ul className='text-[20px]'>
