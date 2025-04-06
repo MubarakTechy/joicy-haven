@@ -61,7 +61,7 @@ const Page = () => {
       }
     } catch (error) {
       console.error(error);
-      toast.error("❌ An error occurred!");
+      toast.error("❌Message not sent!");
     } finally {
       setSending(false);
     }

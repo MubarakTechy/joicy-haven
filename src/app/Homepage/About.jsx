@@ -32,7 +32,7 @@ const About = () => {
       {/* Image Content */}
       <div className="md:w-1/2 w-full flex justify-center">
         <Image
-          src="/rec.png"
+          src="/About.png"
           alt="About Joicy’s Haven"
           width={500}
           height={500}

@@ -37,7 +37,7 @@ const Product = () => {
 
   return (
     <motion.div 
-      className='bgpix flex flex-col w-[100%] md:h-[100vh] gap-[30px] py-[20px]'
+      className='bground bg-gradient-to-br from-indigo-50 to-white flex flex-col w-[100%] md:h-[100vh] gap-[30px] py-[20px]'
       initial="hidden"
       animate="visible"
       variants={containerVariants}
@@ -117,7 +117,7 @@ const Product = () => {
                 <Image src={item.icon} alt={item.title} width={50} height={50} />
               </motion.div>
               <motion.h3 
-                className='md:text-[30px] text-[40px] text-[#2f3093] font-semibold'
+                className='md:text-[30px] text-[35px] text-[#2f3093] font-mono'
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: index * 0.2 }}
@@ -125,7 +125,7 @@ const Product = () => {
                 {item.title}
               </motion.h3>
               <motion.p 
-                className='md:w-[250px] w-[90vw] text-center text-xl md:text-[17px]'
+                className='md:w-[250px] w-[90vw] text-center text-xl md:text-[15px]'
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: index * 0.2 }}
@@ -164,7 +164,7 @@ const Product = () => {
                 <Image src={item.icon} alt={item.title} width={50} height={50} />
               </motion.div>
               <motion.h3 
-                className='text-[30px] text-[#2f3093] font-semibold'
+                className='text-[30px] text-[#2f3093] font-mono'
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: index * 0.2 }}
@@ -172,7 +172,7 @@ const Product = () => {
                 {item.title}
               </motion.h3>
               <motion.p 
-                className='md:w-[250px] w-[90vw] text-center text-xl md:text-[17px]'
+                className='md:w-[250px] w-[90vw] text-center text-xl md:text-[15px]'
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: index * 0.2 }}

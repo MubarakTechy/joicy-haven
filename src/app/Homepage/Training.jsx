@@ -53,7 +53,7 @@ const cardVariant = {
 
 const Training = () => {
   return (
-    <div className="w-full py-20 bg-gradient-to-b from-[#2f3093] to-[#1f1f5f] text-white flex flex-col items-center">
+    <div className="w-full py-20 bg-gradient-to-b from-gray-900  to-[#2f3093] text-white flex flex-col items-center">
       <h1 className="text-4xl font-bold mb-10">Training Packages</h1>
 
       <div className="grid md:grid-cols-3 gap-10 w-[90%] max-w-6xl">
