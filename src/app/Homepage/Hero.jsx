@@ -206,7 +206,7 @@ const Hero = () => {
               <div className="absolute top-0 left-0 w-full h-full border-4 border-[#d0aa67] border-t-transparent rounded-full animate-spin"></div>
               <div className="absolute top-2 left-2 w-12 h-12 border-4 border-[#2f3093] border-t-transparent rounded-full animate-spin-slow"></div>
             </div>
-            <p className="text-white mt-4 text-sm font-light tracking-wider">WELCOME TO JOICY'S</p>
+            <p className="text-white mt-4 text-sm font-light tracking-wider">WELCOME TO JOICY&apos;S HAVEN</p>
           </div>
         </div>
       )}
@@ -262,21 +262,21 @@ const Hero = () => {
         >
           <div className="overflow-hidden">
             <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-sans     text-white mb-4 drop-shadow-md'>
-              Welcome to Joicy's Haven
+              Welcome to Joicy&apos;s Haven
             </h1>
           </div>
           
-          <div className="overflow-hidden">
+          <div className="overflow-hidden text-center">
             <h3 className='text-xl sm:text-2xl md:text-3xl font-semibold text-white mb-6 drop-shadow-md'>
-              <span className="inline-block">Relax, </span>
-              <span className="inline-block text-[#d0aa67] mx-2">Rejuvenate, </span>
-              <span className="inline-block">and Learn with Us</span>
+              <span className="inline-block font-mono">Relax, </span>
+              <span className="inline-block text-[#d0aa67] font-mono mx-2">Rejuvenate, </span>
+              <span className="inline-block font-mono">and Learn with Us</span>
             </h3>
           </div>
           
           <div className="overflow-hidden">
             <p className='text-base sm:text-lg md:text-xl text-white/90 max-w-2xl mx-auto md:mx-0 mb-8 leading-relaxed'>
-              At Joicy's Haven, we have packages for everyone. Whether you're here to indulge in our luxurious spa services or explore our professional training programs, we have something to nurture both body and mind.
+              At Joicy&apos;s Haven, we have packages for everyone. Whether you&apos;re here to indulge in our luxurious spa services or explore our professional training programs, we have something to nurture both body and mind.
             </p>
           </div>
 
@@ -336,7 +336,7 @@ const Hero = () => {
           <div className="w-1.5 h-1.5 bg-white rounded-full animate-scroll-down"></div>
         </div>
       </div>
-      
+      {/* 'https://github.com/codedsholly11/joicyshaven.git' */}
       {/* Subtle grain texture overlay */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZmlsdGVyIGlkPSJhIiB4PSIwIiB5PSIwIj48ZmVUdXJidWxlbmNlIGJhc2VGcmVxdWVuY3k9Ii43NSIgc3RpdGNoVGlsZXM9InN0aXRjaCIgdHlwZT0iZnJhY3RhbE5vaXNlIi8+PGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMCIvPjwvZmlsdGVyPjxwYXRoIGQ9Ik0wIDBoMzAwdjMwMEgweiIgZmlsdGVyPSJ1cmwoI2EpIiBvcGFjaXR5PSIuMDUiLz48L3N2Zz4=')]" aria-hidden="true"></div>
       

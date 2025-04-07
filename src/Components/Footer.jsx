@@ -73,7 +73,7 @@ const Footer = () => {
           {/* Image Section */}
           <div className="relative w-full h-64 md:h-full rounded-xl overflow-hidden shadow-lg">
             <Image
-              src="/chair.jpg"
+              src="/location.jpg"
               alt="Footer Image"
               fill
               className="object-cover"

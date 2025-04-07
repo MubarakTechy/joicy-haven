@@ -72,7 +72,7 @@ const Page = () => {
       <ToastContainer />
       <form onSubmit={fetchApi} className="w-full max-w-5xl px-4 py-10">
         <div className="text-center mb-10">
-          <Image src="/logo.png" alt="logo" width={100} height={100} className="mx-auto" />
+          <a href='/'><Image src="/logo.png" alt="logo" width={100} height={100} className="mx-auto" /></a>
           <h2 className="text-3xl font-bold text-[#2f3093] mt-4">Enroll For Our Training</h2>
         </div>
 

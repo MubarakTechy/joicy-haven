@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay, Navigation } from 'swiper/modules';
 
@@ -41,7 +40,7 @@ const Clients = () => {
   const testimonials = [
     {
       id: 1,
-      content: " Joicy's Haven is my go-to sanctuary for relaxation. The massage was divine, and the calming atmosphere made it an unforgettable escape from my busy life. Highly recommend! ",
+      content: " Joicy&apos;s Haven is my go-to sanctuary for relaxation. The massage was divine, and the calming atmosphere made it an unforgettable escape from my busy life. Highly recommend! ",
       author: "Emmanuel M.",
       rating: 5
     },
@@ -91,7 +90,7 @@ const Clients = () => {
           <h2 className="text-4xl font-bold mb-2">Our Happy Clients</h2>
           <div className="w-24 h-1 bg-purple-500 mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Don't just take our word for it - hear what our valued clients have to say about their experiences at Joicy's Haven.
+            Don&apos;t just take our word for it  hear what our valued clients have to say about their experiences at Joicy&apos;s Haven.
           </p>
         </div>
 

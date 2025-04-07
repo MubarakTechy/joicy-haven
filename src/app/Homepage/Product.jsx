@@ -117,7 +117,7 @@ const Product = () => {
                 <Image src={item.icon} alt={item.title} width={50} height={50} />
               </motion.div>
               <motion.h3 
-                className='md:text-[30px] text-[35px] text-[#2f3093] font-mono'
+                className='md:text-[30px] text-[30px] text-[#2f3093] font-mono'
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: index * 0.2 }}
@@ -164,7 +164,7 @@ const Product = () => {
                 <Image src={item.icon} alt={item.title} width={50} height={50} />
               </motion.div>
               <motion.h3 
-                className='text-[30px] text-[#2f3093] font-mono'
+                className='md:text-[27px] text-[27px] text-[#2f3093] font-mono'
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: index * 0.2 }}

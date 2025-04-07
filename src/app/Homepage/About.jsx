@@ -11,12 +11,12 @@ const About = () => {
       {/* Text Content */}
       <div className="md:w-1/2 w-full flex flex-col gap-6 text-center md:text-left">
         <h2 className="text-4xl md:text-5xl font-bold text-[#2f3093]">
-          About Joicy’s Haven
+          About Joicy&apos;s Haven
         </h2>
         <p className="text-gray-600 text-lg leading-relaxed">
-          Joicy’s Haven offers personalized beauty and wellness treatments in a
+          Joicy&apos;s Haven offers personalized beauty and wellness treatments in a
           relaxing environment, enhancing balance and confidence. We also offer
-          hands-on training for individuals eager to learn and grow in the
+          hands&apos;on training for individuals eager to learn and grow in the
           beauty industry.
         </p>
         <a
@@ -33,7 +33,7 @@ const About = () => {
       <div className="md:w-1/2 w-full flex justify-center">
         <Image
           src="/About.png"
-          alt="About Joicy’s Haven"
+          alt="About  Haven"
           width={500}
           height={500}
           className="rounded-xl w-[90%] md:w-[85%] object-cover shadow-lg"

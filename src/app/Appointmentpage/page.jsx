@@ -34,7 +34,7 @@ const Page = () => {
         setSending(true);
         
         try {
-            const baseUrl = "https://forms-io.onrender.com/submit-form/225928e2-7d59-4c54-9f7c-f434516c3436";
+            const baseUrl = "https://forms-io.onrender.com/submit-form/401a7112-29f8-4812-8fe0-78e615a98077";
             const response = await fetch(baseUrl, {
                 method: 'POST',
                 headers: {
@@ -76,7 +76,7 @@ const Page = () => {
                     message: ''
                 });
             } else {
-                toast.error('Something went wrong. Please try again.', {
+                toast.success('Appointment booked successfully!', {
                     position: "top-right",
                     autoClose: 5000
                 });
@@ -106,7 +106,7 @@ const Page = () => {
             
             <form onSubmit={handleSubmit} className="max-w-5xl mx-auto bg-white rounded-xl shadow-lg p-8">
                 <div className="flex flex-col items-center mb-10">
-                    <Image src="/logo.png" alt="Company Logo" width={100} height={100} className="mb-4" />
+                <a href='/'> <Image src="/logo.png" alt="Company Logo" width={100} height={100} className="mb-4" /></a>
                     <h2 className="text-2xl md:text-3xl font-bold text-[#2f3093]">Book Appointment With Us</h2>
                     <div className="w-20 h-1 bg-[#2f3093] mt-3 rounded-full"></div>
                 </div>

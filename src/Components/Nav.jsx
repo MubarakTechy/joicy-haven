@@ -61,7 +61,7 @@ const Nav = () => {
       <nav
         ref={navRef}
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 
-          ${scrolled ? "h-[8vh] shadow-md backdrop-blur-lg bg-white/80" : "h-[10vh] bg-transparent"}
+          ${scrolled ? "h-[8vh] shadow-md backdrop-blur-lg bg-[#2f3093] " : "h-[10vh] bg-transparent"}
           flex items-center justify-between px-6 md:px-16`}
       >
         <Image
@@ -73,10 +73,10 @@ const Nav = () => {
         />
 
         <ul className="hidden md:flex items-center gap-10 text-lg xl:text-xl font-mono text-white">
-          <li onClick={() => scrollToSection("Hero")} className="hover:text-[#2f3093]  cursor-pointer transition-colors">HOME</li>
-          <li onClick={() => scrollToSection("About")} className="hover:text-[#2f3093] cursor-pointer transition-colors">ABOUT</li>
-          <li onClick={() => scrollToSection("Service")} className="hover:text-[#2f3093] cursor-pointer transition-colors">SERVICE</li>
-          <li><Link href="/Trainingpage" className="hover:text-[#2f3093]">TRAINING</Link></li>
+          <li onClick={() => scrollToSection("Hero")} className="hover:text-[#d0aa67]  cursor-pointer transition-colors">HOME</li>
+          <li onClick={() => scrollToSection("About")} className="hover:text-[#d0aa67] cursor-pointer transition-colors">ABOUT</li>
+          <li onClick={() => scrollToSection("Service")} className="hover:text-[#d0aa67] cursor-pointer transition-colors">SERVICE</li>
+          <li><Link href="/Trainingpage" className="hover:text-[#d0aa67]">TRAINING</Link></li>
           <Link href="/Appointmentpage">
             <button className="bg-[#d0aa67] text-white px-5 py-2 rounded-lg font-semibold hover:bg-[#2f3093] transition duration-300">
               Book Now
