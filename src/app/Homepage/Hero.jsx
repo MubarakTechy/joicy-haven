@@ -197,7 +197,9 @@ const Hero = () => {
       aria-label="Joicy's Haven hero section"
     >
       <Nav />
-
+   {/* Loading overlay */}
+      {/* Loading overlay */}
+         {/* Loading overlay */}
       {/* Loading overlay */}
       {!isLoaded && (
         <div className="absolute inset-0 bg-gray-900 z-50 flex items-center justify-center">
