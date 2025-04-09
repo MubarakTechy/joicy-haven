@@ -40,7 +40,7 @@ const Clients = () => {
   const testimonials = [
     {
       id: 1,
-      content: " Joicy&apos;s Haven is my go-to sanctuary for relaxation. The massage was divine, and the calming atmosphere made it an unforgettable escape from my busy life. Highly recommend! ",
+      content: " Joicy's Haven is my go-to sanctuary for relaxation. The massage was divine, and the calming atmosphere made it an unforgettable escape from my busy life. Highly recommend! ",
       author: "Emmanuel M.",
       rating: 5
     },
